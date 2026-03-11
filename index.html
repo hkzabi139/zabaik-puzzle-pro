@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zabaik Puzzle Pro - Task 9</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Zabaik <span>Puzzle Pro</span></h1>
+            <p>Drag the pieces to verify you're not a robot!</p>
+        </header>
+
+        <div class="upload-bar">
+            <input type="file" id="imageUpload" accept="image/*">
+            <div class="config">
+                <select id="gridSize">
+                    <option value="3">3x3 (Easy)</option>
+                    <option value="4">4x4 (Hard)</option>
+                </select>
+                <button id="startBtn" disabled>Start Game</button>
+            </div>
+        </div>
+
+        <div class="main-layout">
+            <div id="puzzle-board"></div>
+
+            <aside class="sidebar">
+                <div class="ref-box" id="refBox">
+                    <h3>Reference</h3>
+                    <img id="refImage" alt="Reference View">
+                    <p id="placeholderText">Upload an image to start</p>
+                </div>
+                <div class="action-btns">
+                    <button id="restartBtn" class="secondary-btn">Restart</button>
+                    <button onclick="location.reload()" class="secondary-btn">New Image</button>
+                </div>
+            </aside>
+        </div>
+        <h2 id="message"></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
