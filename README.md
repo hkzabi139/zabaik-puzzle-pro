@@ -5,8 +5,8 @@ A professional, responsive, and interactive Image Puzzle Game built with modern 
 ## 🚀 Live Demo
 Aap is project ko neeche diye gaye links par live check kar sakte hain:
 
-* **Primary Link:** [zabaik-puzzle-pro.netlify.app](Insert_Your_Link_1)
-* **Backup Link:** https://hkzabi139.github.io/zabaik-puzzle-pro/
+* **Primary Link:** [https://zabaik-puzzle-pro.netlify.app](https://zabaik-puzzle-pro.netlify.app)
+* **Backup Link:** [https://hkzabi139.github.io/zabaik-puzzle-pro/](https://hkzabi139.github.io/zabaik-puzzle-pro/)
 
 ## ✨ Features
 - **Dynamic Image Splitting:** Upload any image from your device, and the system automatically converts it into a puzzle.
