@@ -5,7 +5,7 @@ A professional, responsive, and interactive Image Puzzle Game built with modern 
 ## 🚀 Live Demo
 Aap is project ko neeche diye gaye links par live check kar sakte hain:
 
-* **Primary Link:** zabaik-puzzle-pro.netlify.app
+* **Primary Link:** [zabaik-puzzle-pro.netlify.app]
 * **Backup Link:** https://hkzabi139.github.io/zabaik-puzzle-pro/
 
 ## ✨ Features
